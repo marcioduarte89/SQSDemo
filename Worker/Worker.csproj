@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-Worker-7B1EE776-EE04-46B5-8900-731932D5FCAB</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.101" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.3.103.25" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.4" />
+  </ItemGroup>
+</Project>
